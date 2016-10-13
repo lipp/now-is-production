@@ -10,7 +10,7 @@ After re-eploying your service, the old deployment may have to do some cleanup o
 
 This module periodically polls if the running deployment has an alias to the production url.
 
-```
+```js
 const nowIsProduction = require('now-is-production')
 const now = nowClient('YOUR TOKEN')
 
